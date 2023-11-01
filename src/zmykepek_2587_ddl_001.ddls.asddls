@@ -2,7 +2,7 @@
 @AbapCatalog.compiler.compareFilter: true
 @AbapCatalog.preserveKey: true
 @AccessControl.authorizationCheck: #NOT_REQUIRED
-@EndUserText.label: 'CDS Örnek'
+@EndUserText.label: 'CDS Örnek 1'
 define view ZMYKEPEK_2587_DDL_001 
     as select from ekko
     inner join ekpo on ekpo.ebeln = ekko.ebeln
